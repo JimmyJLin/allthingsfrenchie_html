@@ -37,6 +37,22 @@ app.use(logger('dev'));
 app.set('views', './views');
 app.set('view engine', 'ejs');
 
+app.get('/toast', function(req, res){
+  res.render('pages/frenchie_toast')
+})
+
+app.get('/friends', function(req, res){
+  res.render('pages/friends_closet')
+})
+
+app.get('/frenchies', function(req, res){
+  res.render('pages/frenchie_closet')
+})
+
+app.get('/new', function(req, res){
+  res.render('pages/new_arrival')
+})
+
 app.get('/', function(req, res){
   res.render('pages/index')
 })
