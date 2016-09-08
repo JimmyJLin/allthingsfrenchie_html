@@ -30,49 +30,17 @@
 
     <!-- Menu 6 - Sign_in/Sign_out -->
     <div class="right menu">
-      <a id="login_button" class="item ui button">Sign <br> In</a>
+      <a id="login_button" class="item ui button">Sign In</a>
     </div>
   </div>
 
   <!-- login -->
-  <div class="ui small modal login">
-    <i class="close icon"></i>
-    <div class="header">
-      Login
-    </div>
+  <%- include ../partials/user_auth/login %>
 
-    <div id="loginForm">
+  <!-- signup -->
+  <%- include ../partials/user_auth/sign_up %>
 
-      <img id="social_media_login_button" src="images/login/facebook_login.png" alt="facebook login" class="ui medium rounded image">
-
-      <br>
-
-      <img id="social_media_login_button" src="images/login/google+_login.png" alt="googgle + login" class="ui medium rounded image">
-
-      <br>
-
-      <img id="social_media_login_button" src="images/login/twitter_login.png" alt="" class="ui medium rounded image">
-
-      <br>
-
-      <div class="ui divider"></div>
-
-      <br>
-
-      <form class="ui form">
-        <div class="field">
-          <label>Email</label>
-          <input type="text" name="email" placeholder="email">
-        </div>
-        <div class="field">
-          <label>Password</label>
-          <input type="password" name="password" placeholder="password">
-        </div>
-        <button class="ui button" type="submit">Sign In</button>
-      </form>
-    </div>
-
-  </div>
-
+  <!-- password reset -->
+  <%- include ../partials/user_auth/forget_password %>
 
 </div>
