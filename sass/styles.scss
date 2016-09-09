@@ -1,6 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 
 $main_color: transparent;
+$main_arrival_text_color: #666666;
+$main_footer_background_color: #f6f6f6;
+$main_text_color: black;
+
+
 
 
 body{
@@ -33,6 +38,7 @@ h3{
 
 
 // Pages
+@import "pages/landing_page";
 @import "pages/frenchie_closet";
 @import "pages/frenchie_toast";
 @import "pages/friends_closet";

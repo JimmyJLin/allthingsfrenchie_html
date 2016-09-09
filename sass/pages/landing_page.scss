@@ -1,0 +1,45 @@
+
+
+#landing_page{
+  padding-bottom: 100px;
+
+  #arrival_container{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #three_column_row{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  // #new_arrival_column{
+  //   width: 33%;
+  // }
+
+  #new_arrivals_long{
+    width: 100%;
+  }
+
+  #new_arrivals_short{
+    width: 100%;
+
+  }
+
+  #new_arrival_negative_margin{
+    margin-top: -142px;
+  }
+
+  #new_arrival_title{
+    text-align: center;
+    color: $main_arrival_text_color;
+  }
+
+  #new_arrival_main_title{
+    text-align: center;
+    color: $main_arrival_text_color;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}

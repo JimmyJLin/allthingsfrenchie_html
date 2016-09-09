@@ -1,18 +1,50 @@
 
 
 #footer {
-  padding-left: 15%;
-  padding-right: 15%;
-  // position: absolute;
-  // right: 0;
-  // bottom: 0;
-  // left: 0;
-  // padding: 1rem;
-  // background-color: #efefef;
+  background-color: $main_footer_background_color;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
 
   #footer_menu{
     padding-left: 25px;
   }
 
+  #footer_links {
+    line-height: 90%;
+    font-size: 1em;
+    color: $main_arrival_text_color;
+  }
+
+  #footer_header{
+    font-size: 1.24em;
+  }
+
+  #newsletter_signup{
+    padding-right: 25px;
+  }
+
+  #join_social_medias{
+    display: inline-flex;
+    padding-bottom: 25px;
+    p {
+      font-size: 1.25em;
+      padding-right: 50px;
+      text-align: left;
+    }
+  }
+
+  #customer_assistance{
+    text-align: left;
+
+
+  }
+
+  #footer_order{
+    text-align: left;
+    display: inline-table;
+
+  }
 }
