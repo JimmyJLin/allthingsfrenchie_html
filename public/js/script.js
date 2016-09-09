@@ -1,7 +1,10 @@
 $(function(){
   console.log("running script file")
 
-
+  // sticky menu
+  $('.main.menu').visibility({
+    type: 'fixed'
+  });
 
   // sign in / sign out Modal
   $('#login_button').on('click', function(){
